@@ -102,19 +102,54 @@
 // Triângulo escaleno: possui todos os lados diferentes (A<>B e B <> C)
 // Triângulo eqüilátero: possui todos os lados iguais (A=B e B=C)
 
-const prompt = require('prompt-sync')();
-let primeiroLado = Number(prompt("insira o primeiro lado do seu triangulo: "));
-let segundoLado = Number(prompt("insira o segundo lado do seu triangulo: "));
-let terceiroLado = Number(prompt("insira o terceiro lado do seu triangulo: "));
+// const prompt = require('prompt-sync')();
+// let primeiroLado = Number(prompt("insira o primeiro lado do seu triangulo: "));
+// let segundoLado = Number(prompt("insira o segundo lado do seu triangulo: "));
+// let terceiroLado = Number(prompt("insira o terceiro lado do seu triangulo: "));
 
-if(primeiroLado < segundoLado + terceiroLado && segundoLado < primeiroLado + terceiroLado && terceiroLado < primeiroLado + segundoLado){
-    if(primeiroLado === segundoLado && segundoLado === terceiroLado){
-        console.log("Triângulo Equilátero");
-    }else if(primeiroLado != segundoLado && segundoLado != terceiroLado && primeiroLado != terceiroLado){
-        console.log("Triângulo Escaleno");
-    }else{
-        console.log("Triângulo Isósceles");
-    }
-}else{
-    console.log("os valores informados não formam um triângulo válido");
-}
+// if(primeiroLado < segundoLado + terceiroLado && segundoLado < primeiroLado + terceiroLado && terceiroLado < primeiroLado + segundoLado){
+//     if(primeiroLado === segundoLado && segundoLado === terceiroLado){
+//         console.log("Triângulo Equilátero");
+//     }else if(primeiroLado != segundoLado && segundoLado != terceiroLado && primeiroLado != terceiroLado){
+//         console.log("Triângulo Escaleno");
+//     }else{
+//         console.log("Triângulo Isósceles");
+//     }
+// }else{
+//     console.log("os valores informados não formam um triângulo válido");
+// }
+
+// 7. As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se
+// forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs
+// compradas, calcule e escreva o valor total da compra.
+
+// const prompt = require('prompt-sync')();
+
+// let amountApples = Number(prompt("Quantas maçãs você deseja comprar?"));
+
+// if(amountApples < 0){
+//     console.log("Erro! Quantidade Inválida!");
+// }else if (amountApples >= 0 && amountApples < 12){
+//     console.log(`o total da sua compra foi R$${amountApples * 0.3}`);
+// }else{
+//     console.log(`o total da sua compra foi R$${amountApples * 0.25}`);
+// }
+
+// 8. Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais)
+// e escreve-los em ordem crescente.
+
+let greater = Number.MIN_VALUE;
+let lesser = Number.MAX_VALUE;
+
+const prompt = require('prompt-sync')();
+// let primeiroValor = Number(prompt("Insira o primeiro valor:"));
+// let segundoValor = Number(prompt("Insira o segundo?"));
+
+// 9. Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console
+// utilizando um loop for.
+
+// for(let i = 10; i > 0; i--){
+//     console.log(i);
+// }
+
+// 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
