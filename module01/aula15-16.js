@@ -120,5 +120,16 @@ class Node {
       isEmpty() {
         return this.size === 0;
       }
+
+      clear(){
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+        console.log("Lista vazia!");
+      }
+
+      reverse(){
+        //Faltando
+      }
   }
   
