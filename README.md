@@ -16,8 +16,8 @@ Siga os passos abaixo para configurar e executar os exercícios localmente:
 ### 1. Clonar o Repositório
 Se você tem o Git instalado, pode clonar o repositório com o seguinte comando:
 
-```bash
-git clone https://github.com/usuario/nome-do-repositorio.git
+```
+git clone https://github.com/lwkas-gabriel/mais-pra-ti.git
 ```
 
 Ou simplesmente faça o download do repositório como um arquivo ZIP e extraia-o no diretório desejado.
@@ -27,8 +27,7 @@ Este projeto utiliza a biblioteca prompt-sync para permitir a leitura de inputs 
 
 Abra o terminal na pasta raiz do projeto.
 Execute o seguinte comando para instalar a dependência prompt-sync:
-bash
-Copiar código
+
 npm install prompt-sync
 
 ### 3. Executar o Exercício no VSCode
